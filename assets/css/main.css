@@ -2593,6 +2593,10 @@ input, select, textarea {
 		display: inline-block;
 		position: relative;
 	}
+		.image.small {
+			width: 50%
+		}
+
 
 		.image img {
 			display: block;
@@ -2601,6 +2605,10 @@ input, select, textarea {
 		.image.left, .image.right {
 			max-width: 50%;
 		}
+
+			image.leftsmall, .image.rightsmall {
+				max-width: 35%;
+			}
 
 			.image.left img, .image.right img {
 				width: 100%;
