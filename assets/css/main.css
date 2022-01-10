@@ -175,9 +175,14 @@ input, select, textarea {
 		font-style: italic;
 	}
 
+	figcaption {
+		font-size: 75%;
+	}
+	
 	p {
 		text-align: justify;
 		margin: 0 0 2rem 0;
+		font-size: 75%;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
